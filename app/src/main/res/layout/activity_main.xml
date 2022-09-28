@@ -14,6 +14,7 @@
         android:layout_width="160dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        android:hint="Cost of Service"
         android:inputType="numberDecimal"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
