@@ -14,4 +14,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         binding.calculateButton.setOnClickListener{ calculateTip() }
     }
+    fun calculateTip() {
+
+    }
 }
