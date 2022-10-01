@@ -27,5 +27,6 @@ class MainActivity : AppCompatActivity() {
         }
 
         var tip = tipPercentage * cost
+        val roundUp = binding.roundUpSwitch.isChecked
     }
 }
