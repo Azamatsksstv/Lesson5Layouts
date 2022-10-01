@@ -31,5 +31,7 @@ class MainActivity : AppCompatActivity() {
         if (roundUp) {
             tip = kotlin.math.ceil(tip)
         }
+
+        NumberFormat.getCurrencyInstance()
     }
 }
