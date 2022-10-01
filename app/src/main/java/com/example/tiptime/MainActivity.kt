@@ -32,6 +32,6 @@ class MainActivity : AppCompatActivity() {
             tip = kotlin.math.ceil(tip)
         }
 
-        NumberFormat.getCurrencyInstance()
+        val formattedTip = NumberFormat.getCurrencyInstance().format(tip)
     }
 }
